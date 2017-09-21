@@ -39,7 +39,7 @@ var genreCipher = function() {
 // appends to the games section
 function appender1() {
   for (var i = 0; i < 2; i++) {
-    $("#gameSection").append(games[i].name)
+    $("#landing1").append('< div id = "gameSection" > < h5 id = "' + i + '" > ' + games[i].name + ' < /h5> <img id = "' + i + '" src = "' + games[i].img + '" alt = "width=243" ></div >')
   }
 
 }
