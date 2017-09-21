@@ -51,6 +51,11 @@ function appender1() {
 
 // user interface
 jQuery(document).ready(function($) {
+  datbass()
+  genreCipher()
+  appender1()
+
+
   $("#lad").click(function(event) {
     $("#cmon").hide()
     $(".one").append('<img class="d-block img-fluid" src="img/5858.jpg" alt="first slide">');
