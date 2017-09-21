@@ -1,3 +1,26 @@
+// back-end
+games = []
+
+// constructor for each game
+function Game(name, genre, img, screenS) {
+  this.name = name;
+  this.genre = genre;
+  this.img = img;
+  this.screenS = screenS;
+
+}
+
+var datbass = function() {
+  cod = new Game("Call of Duty", "Action", "img/cod1.jpg", ["img/codsc1.jpg", "img/codsc1.jpg", "img/codsc3.jpg", "img/codsc4.jpg"])
+  crew = new Game("Crew", "Racing", "img/crew1.jpg", ["img/crewsc1.jpg", "img/crewsc2.jpg", "img/crewsc3.jpg", "img/crewsc4.jpg"])
+
+}
+
+
+
+
+
+
 // user interface
 jQuery(document).ready(function($) {
   $("#lad").click(function(event) {
