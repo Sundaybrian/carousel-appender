@@ -20,7 +20,21 @@ var datbass = function() {
 
 }
 
+// genre sorter sorts games per genre
+var genreCipher = function() {
+  for (var i = 0; i < games.length; i++) {
+    if (games[i].genre == "Action") {
+      actionCipher.push(games[i])
+      console.log(actionCipher);
 
+    } else if (games[i].genre == "Racing") {
+      racingCipher.push(games[i])
+      console.log(racingCipher);
+
+    }
+  }
+
+}
 
 
 
