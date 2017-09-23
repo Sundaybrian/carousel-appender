@@ -17,6 +17,10 @@ var datbass = function() {
   games.push(cod)
   crew = new Game("Crew", "Racing", "img/crew1.jpg", ["img/crewsc1.jpg", "img/crewsc2.jpg", "img/crewsc3.jpg", "img/crewsc4.jpg"])
   games.push(crew)
+  gta = new Game("Grand Theft Auto", "Open World", "img/gta1.jpg", ["img/gtasc1.jpg", "img/gtasc2.jpg", "img/gtasc3.jpg", "img/gtasc4.jpg"])
+  games.push(gta)
+  fifa = new Game("Fifa 16", "Sports", "img/fifa1.jpg", ["img/fifasc1.jpg", "img/fifasc2.jpg", "img/fifasc3.jpg", "img/fifasc4.jpg"])
+  games.push(fifa)
 
 }
 
