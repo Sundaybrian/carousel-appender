@@ -2,6 +2,8 @@
 games = []
 actionCipher = []
 racingCipher = []
+openCipher = []
+sportsCipher = []
 
 // constructor for each game
 function Game(name, genre, img, screenS) {
@@ -34,6 +36,14 @@ var genreCipher = function() {
     } else if (games[i].genre === "Racing") {
       racingCipher.push(games[i])
       console.log(racingCipher);
+
+    } else if (games[i].genre === "Open World") {
+      openCipher.push(games[i])
+      console.log(openCipher);
+
+    } else if (games[i].genre === "Sports") {
+      sportsCipher.push(games[i])
+      console.log(sportsCipher);
 
     }
   }
