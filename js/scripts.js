@@ -53,7 +53,7 @@ var genreCipher = function() {
 // appends to the games section
 function appender1() {
   for (var i = 0; i < 4; i++) {
-    $(".card-group").append('<div class="card"><img class="card-img-top" id="' + i + '" src="' + games[i].img + '" width="243" alt="Card image cap"><div class="card-block"><h4 class="card-title" id="' + i + '">' + games[i].name + '</h4></div></div>');
+    $(".card-group").append('<div class="card clickable"><img class="card-img-top" id="' + i + '" src="' + games[i].img + '" width="243" alt="Card image cap"><div class="card-block"><h4 class="card-title" id="' + i + '">' + games[i].name + '</h4></div></div>');
   }
 
 }
@@ -65,9 +65,16 @@ function appender1() {
 
 // user interface
 jQuery(document).ready(function($) {
+
   datbass()
   genreCipher()
   appender1()
+
+  $(".card-group").click(function(event) {
+
+
+    /* Act on the event */
+  });
 
 
   $("#lad").click(function(event) {
